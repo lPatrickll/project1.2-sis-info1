@@ -16,6 +16,7 @@
                     <li><a class="txt-navegador" href="#section-bibliografias">BIBLIOGRAFIAS</a></li>
                     <li><a class="txt-navegador" href="#section-peliculas">PELICULAS</a></li>
                     <li><a class="txt-navegador" href="#section-music">MUSICA</a></li>
+                    <li><a class="txt-navegador" href="#space-multimedia">MULTIMEDIA</a></li>
                     <li><a class="txt-navegador" href="">ATRAS</a></li>
                 </ul>
             </div>
@@ -103,7 +104,7 @@
             </div>
 
             <div class="contenedor-tabla">
-                <div id="formularioContainer" style="display: none;">
+                <div class="contenedor-formulario" id="formularioContainer" style="display: none;">
                     <form>
                         <p class="texto">Nombre: <input type="text" id="nombre"><br></p>
                         <p class="texto">Artista: <input type="text" id="artista"><br></p>
@@ -112,7 +113,9 @@
                     </form>
                     <br>
                 </div>
-                <button id="mostrar-form" onclick="mostrarFormulario()">Mostrar Formulario</button>
+                <div>
+                    <button class="boton-add" id="mostrar-form" onclick="mostrarFormulario()">+</button>
+                </div>
                 <table id="tabla">
                     <tr>
                         <th>Nombre</th>
@@ -123,31 +126,17 @@
             </div>
         </section>
 
-        <section title="space-multimedia">
+        <section id="space-multimedia">
+            <br>
+            <br>
+            <div class="sub-titulo">
+                <h2>MULTIMEDIA</h2>
+            </div>
             <div class="contenedor">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/B4LvDiIi128" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/XQxtiLIWeZ8?si=IbhtqrEdss3KfHkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
         </section>
-
-        <div>
-            <label for="frutas">Elige una fruta:</label>
-            <select id="frutas" name="fruta">
-                <option value="manzana">Manzana</option>
-                <option value="banana">Banana</option>
-                <option value="naranja">Naranja</option>
-            </select>
-            <br>
-            <code>console.log("Hola mundo");</code>
-            <samp>La suma de 2 + 2 es: 4</samp>
-            <br>
-            <pre>
-                function saludar() {
-                    console.log("Hola");
-                    console.log("Mundo");
-                }
-            </pre>
-        </div>
     </main>
     <footer class="parte-final">
         <div>

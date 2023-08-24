@@ -13,6 +13,8 @@ function agregarFila() {
     celdaNombre.innerHTML = nombre;
     celdaArtista.innerHTML = artista;
     celdaGenero.innerHTML = genero;
+    var formularioContainer = document.getElementById('formularioContainer');
+    formularioContainer.style.display = 'none';
 }
 
 function mostrarFormulario() {
