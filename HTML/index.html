@@ -1,149 +1,47 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="../CSS/style.css">
-    <script src="../JS/script.js"></script>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width-device-width, initial-scale-1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie-edge" />
+    <meta name="blog personal" content="proyecto de sis inf" />
+    <title>PAGINA PRINCIPAL DE NUESTRO BLOG PERSONAL</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/style-index.css">
+    
 </head>
 <body>
     <header>
         <nav>
             <div class="navegador">
                 <ul class="opciones-navegador">
-                    <li><a class="txt-navegador" href="#section-inicio">INICO</a></li>
-                    <li><a class="txt-navegador" href="#section-bibliografias">BIBLIOGRAFIAS</a></li>
-                    <li><a class="txt-navegador" href="#section-peliculas">PELICULAS</a></li>
-                    <li><a class="txt-navegador" href="#section-music">MUSICA</a></li>
-                    <li><a class="txt-navegador" href="#space-multimedia">MULTIMEDIA</a></li>
-                    <li><a class="txt-navegador" href="">ATRAS</a></li>
+                    <li><a class="txt-navegador" href="./pagina-1.html">PAGINA ARIEL & LUIS</a></li>
+                    <li><a class="txt-navegador" href="./pagina-2.html">PAGINA PATRICK & ERICK</a></li>
+                    <li><a class="txt-navegador" href="https://cba.ucb.edu.bo/">PAGINA UCB</a></li>
                 </ul>
             </div>
         </nav>
     </header>
-    <main>
-        <section id="section-inicio" title="parte-inicial">
-            <div title="contenedor-superior">
-                <h1 class="texto-superpuesto">Blog Personal</h1>
-                <img class="img-principal" src="../IMG/6409af1090dc5a3953239a9c4749ac53.jpg" alt="fondo-principal">
-            </div>
-        </section>
-
-        <section id="section-bibliografias" title="bibliografia">
-            <br>
-            <br>
-            <div class="sub-titulo">
-                <h2>BIBLIOGRAFIAS</h2>
-            </div>
-            <div class="contenedor" >
-                <div class="contenedor-texto">
-                    <p>Hola, mi nombre es Patrick Gonzales Quintana, soy un estudiante
-                        de la carrera de ingenieria de sistemas, tengo 21 años.
-                        Una de las frases que mas me gustan es: <cite>"No cualquiere puede ser un gran artista, pero 
-                        un gran artista puede venir de cualquier lado"</cite>
-                    </p>
-                </div>
-                <div class="contenedor-imagen">
-                    <img class="img-perro" src="../IMG/perro-panzon.jpg" alt="perro-panzon">
-                </div>
-            </div>
-            <div class="contenedor" >
-                <div class="contenedor-imagen">
-                    <img class="img-gato" src="../IMG/gato-panzon.jpg" alt="gato-panzon">
-                </div>
-                <div class="contenedor-texto">
-                    <p>Mi nombre es Erik, estudio en la carrera Ing. Empresarial, tengo 22 años y soy de Pando.
-                         Me gusta escuchar musica y jugar en la pc, las materias que mas me gustan de mi carrera 
-                         son las de Finanzas y las de tecnoligia
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section id="section-peliculas" class="peliculas">
-            <br>
-            <br>
-            <div class="sub-titulo">
-                <h2>PELICULAS</h2>
-            </div>
-            <div class="contenedor">
-                <div class="contenedor-texto">
-                    <p>
-                        "Avengers: Infinity War" es una película en la que el villano Thanos 
-                        busca las Gemas del Infinito para obtener un poder inmenso. Los héroes de Marvel 
-                        intentan detenerlo, pero Thanos tiene éxito en reunir las gemas y chasquea los dedos, eliminando a la 
-                        mitad del universo. La película termina con un momento impactante y establece la continuación en "Avengers: Endgame".
-                    </p>
-                </div>
-                <div class="contenedor-imagen">
-                    <img class="img-pelicula1" src="../IMG/infinity-war.jpg" alt="infinity-war">
-                </div>
-            </div>
-            <div class="contenedor">
-                <div class="contenedor-imagen">
-                    <img class="img-pelicula2" src="../IMG/interstellar.jpg" alt="interstellar">
-                </div>
-                <div class="contenedor-texto">
-                    <p>
-                        "Interstellar" es una película de ciencia ficción protagonizada por Matthew McConaughey, 
-                        no por Christian Bale. La película, dirigida por Christopher Nolan, sigue a un grupo de astronautas que viaja a 
-                        través de un agujero de gusano en busca de un nuevo hogar para la humanidad, ya que la Tierra enfrenta una crisis ambiental. 
-                        El objetivo es encontrar un planeta habitable en otro sistema solar. La película explora temas como el tiempo relativo, la 
-                        relación entre el amor y la ciencia, y las consecuencias de las decisiones humanas en un contexto cósmico.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <section id="section-music" class="music">
-            <br>
-            <br>
-            <div class="sub-titulo">
-                <h2>MUSICA</h2>
-            </div>
-
-            <div class="contenedor-tabla">
-                <div class="contenedor-formulario" id="formularioContainer" style="display: none;">
-                    <form>
-                        <p class="texto">Nombre: <input type="text" id="nombre"><br></p>
-                        <p class="texto">Artista: <input type="text" id="artista"><br></p>
-                        <p class="texto">Genero: <input type="text" id="genero"><br></p>
-                        <button type="button" onclick="agregarFila()">Agregar a la tabla</button>
-                    </form>
-                    <br>
-                </div>
-                <div>
-                    <button class="boton-add" id="mostrar-form" onclick="mostrarFormulario()">+</button>
-                </div>
-                <table id="tabla">
-                    <tr>
-                        <th>Nombre</th>
-                        <th>Artista</th>
-                        <th>Genero</th>
-                    </tr>
-                </table>
-            </div>
-        </section>
-
-        <section id="space-multimedia">
-            <br>
-            <br>
-            <div class="sub-titulo">
-                <h2>MULTIMEDIA</h2>
-            </div>
-            <div class="contenedor">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/B4LvDiIi128" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/XQxtiLIWeZ8?si=IbhtqrEdss3KfHkg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-            </div>
-        </section>
-    </main>
-    <footer class="parte-final">
+<main>
+    <div>
         <div>
-            <a class="link-redes" href="https://www.facebook.com/ucbcochabamba/?locale=es_LA" target="_blank">Facebook</a>
-            <a class="link-redes" href="https://www.instagram.com/lacatocbba/?hl=es-la" target="_blank2">Instagram</a>
-            <a class="link-redes" href="https://cba.ucb.edu.bo/" target="_blank">PaginaUCB</a>
+            <img class="fondo" src="../IMG/colores-horizontal-NAC.png" alt="logo ucb">
         </div>
-    </footer>
+        <div class="presentacion">
+            <pre>
+                document.getElementById(Integrantes del Grupo:)
+                function presentIntegrantes(){
+                    console.log("Luis Felipe Velasco Lopez");
+                    console.log("Jesus Ariel Mamani Gutierrez");
+                    console.log("Erik Von Boeck Sanchez");
+                    console.log("Patrick Alan Gonzales Quintana");
+                }
+                var Materia = Sistemas de Informacion 1;
+            </pre>
+        </div>
+    </div>
+</main>
 </body>
 </html>

@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+    background:#040D12;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+hr{
+    color:#93B1A6;
+    border-color: #93B1A6;
+}
+
+.titulo-llamativo {
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+    
+    color:white;
+    height: 100px;
+    
+
+    background-color: #183D3D;
+    
+    
+
+}
+.subtitulo{
+    border-bottom: 2px solid #93B1A6;
+    border-top: 2px solid #93B1A6;
+    height: 70px;
+    background-color: #183D3D;
+    width: 100%;
+    
+    padding: 10px 0px 10px 15px;
+    margin: 0;
+    font-size: 26px;
+    letter-spacing: 7px;
+    color: white;
+    text-align: left;
+}
+p{
+    color: white;
+}
+.encabezado {
+    padding: 20px;
+    background-color: #183D3D;
+    position: relative;
+}
+
+.imagen-izquierda {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 130px; /* Tamaño de la imagen */
+}
+
+#selectPersona {
+   
+    background-color:  #183D3D;
+    padding: 9px 30px 9px 30px;
+    width: 200px;
+    display: inline-block;
+    border:2px solid  #93B1A6 ;
+    
+}
+
+#content{
+    text-align: left;
+    padding: 9px 0px 0px 50px;
+    display: inline-block;
+    
+}
+
+#ariel{
+    display:none;
+}
+#felipe{
+    display:none;
+}
+
+.redes{
+    display: inline-block;
+    padding: 9px 0px 0px 320px;
+    max-width: 500px;
+    
+}
+table {
+    border-collapse: collapse;
+     
+    border: 3px solid #93B1A6;
+    margin: auto;
+}
+td, th{
+    padding: 10px 20px; 
+    color: white;
+
+}
+.subtituloTabla{
+    background-color: #183D3D;
+    border-bottom: 2px solid #93B1A6;
+    border-top: 2px solid #93B1A6;
+    height: 70px;
+    padding: 11px 0px 0px 0px;
+}
+#tablaHobies{
+    text-align: center;
+    
+    
+}
+.ucb{
+    left: 1400px;
+    top: 300px;
+}
+h2, h3{
+    color: white;
+}
