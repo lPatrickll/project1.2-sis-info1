@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <script src="../JS/script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="navegador">
+                <ul class="opciones-navegador">
+                    <li><a class="txt-navegador" href="#section-inicio">INICO</a></li>
+                    <li><a class="txt-navegador" href="#section-bibliografias">BIBLIOGRAFIAS</a></li>
+                    <li><a class="txt-navegador" href="#section-peliculas">PELICULAS</a></li>
+                    <li><a class="txt-navegador" href="#section-music">MUSICA</a></li>
+                    <li><a class="txt-navegador" href="">ATRAS</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="section-inicio" title="parte-inicial">
+            <div title="contenedor-superior">
+                <h1 class="texto-superpuesto">Blog Personal</h1>
+                <img class="img-principal" src="../IMG/6409af1090dc5a3953239a9c4749ac53.jpg" alt="fondo-principal">
+            </div>
+        </section>
+
+        <section id="section-bibliografias" title="bibliografia">
+            <br>
+            <br>
+            <div class="sub-titulo">
+                <h2>BIBLIOGRAFIAS</h2>
+            </div>
+            <div class="contenedor" >
+                <div class="contenedor-texto">
+                    <p>INTRODUCCION: </p>
+                    <p>Hola, mi nombre es Patrick Gonzales Quintana, soy un estudiante
+                        de la carrera de ingenieria de sistemas, tengo 21 años.
+                        Una de las frases que mas me gustan es: <cite>"No cualquiere puede ser un gran artista, pero 
+                        un gran artista puede venir de cualquier lado"</cite>
+                    </p>
+                </div>
+                <div class="contenedor-imagen">
+                    <img class="img-perro" src="../IMG/perro-panzon.jpg" alt="perro-panzon">
+                </div>
+            </div>
+            <div class="contenedor" >
+                <div class="contenedor-imagen">
+                    <img class="img-gato" src="../IMG/gato-panzon.jpg" alt="gato-panzon">
+                </div>
+                <div class="contenedor-texto">
+                    <p>INTRODUCCION: </p>
+                    <p>Hola, mi nombre es Patrick Gonzales Quintana, soy un estudiante
+                        de la carrera de ingenieria de sistemas, tengo 21 años.
+                        Una de las frases que mas me gustan es: <cite>"No cualquiere puede ser un gran artista, pero 
+                        un gran artista puede venir de cualquier lado"</cite>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-peliculas" class="peliculas">
+            <br>
+            <br>
+            <div class="sub-titulo">
+                <h2>PELICULAS</h2>
+            </div>
+            <div class="contenedor">
+                <div class="contenedor-texto">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A inventore earum consequatur molestias, sapiente consequuntur dolorem, delectus aperiam voluptates deleniti autem iusto error aliquam! Nemo quibusdam excepturi nihil velit voluptatibus?</p>
+                </div>
+                <div class="contenedor-imagen">
+                    <img class="img-pelicula1" src="../IMG/infinity-war.jpg" alt="infinity-war">
+                </div>
+            </div>
+            <div class="contenedor">
+                <div class="contenedor-imagen">
+                    <img class="img-pelicula2" src="../IMG/interstellar.jpg" alt="interstellar">
+                </div>
+                <div class="contenedor-texto">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Hic excepturi facere aut! Repudiandae, delectus! Molestiae at amet unde nostrum earum, ducimus perspiciatis vel. Rem harum officia, itaque enim molestias odio?</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-music" class="music">
+            <br>
+            <br>
+            <div class="sub-titulo">
+                <h2>MUSICA</h2>
+            </div>
+
+            <div class="contenedor-tabla">
+                <div id="formularioContainer" style="display: none;">
+                    <form>
+                        <p class="texto">Nombre: <input type="text" id="nombre"><br></p>
+                        <p class="texto">Artista: <input type="text" id="artista"><br></p>
+                        <p class="texto">Genero: <input type="text" id="genero"><br></p>
+                        <button type="button" onclick="agregarFila()">Agregar a la tabla</button>
+                    </form>
+                    <br>
+                </div>
+                <button id="mostrar-form" onclick="mostrarFormulario()">Mostrar Formulario</button>
+                <table id="tabla">
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Artista</th>
+                        <th>Genero</th>
+                    </tr>
+                </table>
+            </div>
+        </section>
+
+        <div>
+            <label for="frutas">Elige una fruta:</label>
+            <select id="frutas" name="fruta">
+                <option value="manzana">Manzana</option>
+                <option value="banana">Banana</option>
+                <option value="naranja">Naranja</option>
+            </select>
+            <br>
+            <code>console.log("Hola mundo");</code>
+            <samp>La suma de 2 + 2 es: 4</samp>
+            <br>
+            <pre>
+                function saludar() {
+                    console.log("Hola");
+                    console.log("Mundo");
+                }
+            </pre>
+        </div>
+    </main>
+    <footer class="parte-final">
+        <div>
+            <a class="link-redes" href="">Facebook</a>
+            <a class="link-redes" href="">Instagram</a>
+            <a class="link-redes" href="">WhatsApp</a>
+        </div>
+    </footer>
+    <!--
+        parrafos
+        cite, sup, sub
+        code, sam, pre
+        Listas
+        selects
+        links
+    -->
+</body>
+</html>
